@@ -85,7 +85,7 @@ install_base() {
 config_after_install() {
     echo -e "${yellow}出于安全考虑，安装/更新完成后需要强制修改端口与账户密码${plain}"
     read -p "确认是否继续?[y/n]": config_confirm
-    echo "y"
+    echo y|[read -p "确认是否继续?[y/n]": config_confirm]
     if [[ x"${config_confirm}" == x"y" || x"${config_confirm}" == x"Y" ]]; then
         read -p "请设置您的账户名:" config_account
         echo reno1314
