@@ -87,7 +87,7 @@ config_after_install() {
     read -p "确认是否继续?[y/n]": config_confirm
     
     green "自动选择y"  
-    yn="y"
+    x="y"
     
     if [[ x"${config_confirm}" == x"y" || x"${config_confirm}" == x"Y" ]]; then
         read -p "请设置您的账户名:" config_account
