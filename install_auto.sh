@@ -86,7 +86,7 @@ config_after_install() {
     echo -e "${yellow}出于安全考虑，安装/更新完成后需要强制修改端口与账户密码${plain}"
     config_confirm=y
     if [[ x"${config_confirm}" == x"y" || x"${config_confirm}" == x"Y" ]]; then
-    {config_account}${plain}=reno1314
+    config_account=reno1314
         echo -e "${yellow}您的账户名将设定为:${config_account}${plain}"
     config_password=123
         echo -e "${yellow}您的账户密码将设定为:${config_password}${plain}"
