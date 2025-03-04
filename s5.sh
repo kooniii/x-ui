@@ -130,7 +130,7 @@ sic_optimization() {
 
 # 固定端口设置
 port_set() {
-    port=7792
+    port=10999
 }
 
 port_exist_check() {
