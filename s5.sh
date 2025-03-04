@@ -285,13 +285,4 @@ s5_update() {
 	connect
 }
 
-case "$1" in
-        install|del|update)
-        s5_$1
-        ;;
-        *)
-        echo "使用方法: $0 { install | del | update }"
-        RETVAL=1
-        ;;
-esac
-exit $RETVAL
+s5_install
