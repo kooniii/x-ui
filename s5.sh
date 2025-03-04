@@ -130,7 +130,7 @@ sic_optimization() {
 
 # 固定端口设置
 port_set() {
-    port=10886
+    port=10887
 }
 
 port_exist_check() {
@@ -150,8 +150,8 @@ port_exist_check() {
 
 # 固定用户名和密码设置
 user_set() {
-    user="vv33"
-    passwd="vv33"
+    user="gg33"
+    passwd="gg33"
 }
 
 install_ss5() {
