@@ -130,7 +130,7 @@ sic_optimization() {
 
 # 固定端口设置
 port_set() {
-    port=26263
+    port=7783
 }
 
 port_exist_check() {
@@ -150,8 +150,8 @@ port_exist_check() {
 
 # 固定用户名和密码设置
 user_set() {
-    user="aa33"
-    passwd="aa33"
+    user="495207"
+    passwd="495207"
 }
 
 install_ss5() {
